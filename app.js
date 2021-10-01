@@ -1,3 +1,3 @@
-import getData from "./getData";
+import getdata from "./getData.js";
 
-getData("30 yaşında");
+getdata(1);

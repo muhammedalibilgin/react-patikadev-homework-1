@@ -16,5 +16,8 @@
       "bugs": {
             "url": "https://github.com/muhammedalibilgin/react-patikadev-homework-1/issues"
       },
-      "homepage": "https://github.com/muhammedalibilgin/react-patikadev-homework-1#readme"
+      "homepage": "https://github.com/muhammedalibilgin/react-patikadev-homework-1#readme",
+      "dependencies": {
+            "axios": "^0.22.0"
+      }
 }
