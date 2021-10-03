@@ -5,7 +5,8 @@ const getData = function (number) {
             const { data: user } = await axios(`https://jsonplaceholder.typicode.com/users/${number}`);
             const { data: posts } = await axios(`https://jsonplaceholder.typicode.com/posts?userId=${number}`);
 
-            console.log(user, posts[1]);
+            const allData = [user, posts[1]];
+            console.log(allData);
       });
 };
 
